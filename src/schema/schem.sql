@@ -9,5 +9,5 @@ CREATE TABLE IF NOT EXITS course(
     name VARCHAR(50) NOT NULL,
     price INT NOT NULL,
     duration INT NOT NULL,
-    user_id INT REFRENCES users(id) ON DELETE CASCADE
+    user_id INT REFERENCES users(id) ON DELETE CASCADE
 )
